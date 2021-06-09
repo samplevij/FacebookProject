@@ -12,7 +12,7 @@ public class FacebookLogin {
 
 
 	WebDriver driver;	
-	@BeforeTest()
+
 	public void launchBrowser() {
 			System.setProperty("webdriver.chrome.driver", "D:\\\\chromedriver_win32\\\\chromedriver.exe");
 			// Initialize browser
